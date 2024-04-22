@@ -1,0 +1,53 @@
+/* Estilos para o footer */
+footer {
+    background-color: #1363b8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+/* Estilos para o layout dos produtos */
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.produto {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
+/* Estilos para o modo escuro */
+body.modo-escuro {
+  background-color: #302f2f;
+  color: #fff;
+}
+
+.modo-escuro header {
+  background-color: #1d1c1c;
+}
+
+.modo-escuro footer {
+  background-color: #1d1c1c;
+}
+
+/* Media queries para ajustar o layout em telas menores */
+@media screen and (max-width: 768px) {
+  .produto {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .produto {
+    width: calc(100% - 20px);
+  }
+}
