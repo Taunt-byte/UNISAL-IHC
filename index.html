@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sebo Nossa Alegria</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/styles.css" />
-  </head>
-  <body>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
     <header>
-      <h1>Bem-vindo ao Sebo Nossa Alegria</h1>
-      <p>As principais ofertas de livros e revistas você encontra aqui</p>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>Sebo Nossa Alegria</h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><button id="modo-escuro">Modo Escuro</button></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
-      <section class="ofertas">
-        <h2>Principais ofertas</h2>
-        <p>Livros novos e usados</p>
-      </section>
-      <button id="modo-escuro">Modo Escuro</button>
-      <div id="produtos" class="produtos">
-        <!-- Aqui serão inseridos os produtos -->
-      </div>
+        <section class="ofertas">
+            <h2>Principais ofertas</h2>
+            <p>Livros novos e usados</p>
+            <div id="promocao" class="promocao">
+                <!-- Aqui serão inseridos os promocao -->
+            </div>
+        </section>
+        <section>
+            <h1>
+                Livros e Revistas a venda
+            </h1>
+            <div id="produtos" class="produtos">
+                <!-- Aqui serão inseridos os produtos -->
+            </div>
+        </section>
+
+
     </main>
     <footer>
         <p>&copy; 2024 Sebo Nossa Alegria. Todos os direitos reservados.</p>
     </footer>
     <script src="assets/main.js" async defer></script>
-  </body>
+</body>
 </html>
