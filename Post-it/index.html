@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f3eb" />
+    <title>Parede de ideias</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <p class="eyebrow">Um espaço para suas ideias</p>
+          <h1>Parede de ideias</h1>
+          <p class="intro">
+            Anote lembretes, planos e pensamentos. Seus post-its ficam salvos
+            neste navegador.
+          </p>
+        </div>
+        <span class="count" id="note-count" aria-live="polite">0 post-its</span>
+      </header>
+
+      <form id="note-form">
+        <label class="eyebrow" for="note-input">Novo post-it</label>
+        <div class="composer">
+          <textarea
+            id="note-input"
+            name="note"
+            maxlength="280"
+            placeholder="O que você quer lembrar?"
+            required
+            aria-describedby="input-hint"
+          ></textarea>
+          <button class="add-button" type="submit">＋ Adicionar</button>
+        </div>
+        <p class="hint" id="input-hint">
+          Até 280 caracteres. Use Enter para adicionar ou Shift + Enter para
+          pular uma linha.
+        </p>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+
+      <section aria-labelledby="wall-title">
+        <div class="wall-heading">
+          <h2 id="wall-title">Sua parede</h2>
+          <p>Remova um post-it quando não precisar mais dele.</p>
+        </div>
+        <div
+          class="wall"
+          id="wall"
+          aria-live="polite"
+          aria-relevant="additions removals"
+        ></div>
+      </section>
+    </main>
+    <script src="main.js" async defer></script>
+  </body>
+</html>

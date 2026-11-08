@@ -31,3 +31,13 @@ Este projeto proporcionou uma oportunidade valiosa para aprender sobre os princ�
 - A importância de projetar interfaces intuitivas e acessíveis para uma ampla variedade de usuários.
 - A necessidade de realizar testes de usabilidade e iterar continuamente com base no feedback do usuário.
 - A compreensão de como os princípios de design de interface podem influenciar a experiência do usuário e a eficácia de um sistema interativo.
+
+
+## Leituras e recursos para começar
+
++ The Design of Everyday Things, Donald Norman
++ Don’t Make Me Think, Steve Krug
++ Designing Interfaces, Jenifer Tidwell
++ Interaction Design: Beyond Human-Computer Interaction, Preece, Rogers e Sharp (um dos livros-texto mais usados em IHC)
++ Nielsen Norman Group (nngroup.com), com artigos muito práticos
++ Os guias de design da Apple e do Google (Human Interface Guidelines e Material Design)

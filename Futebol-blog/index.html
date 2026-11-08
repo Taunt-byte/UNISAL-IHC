@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Notícias, análises e histórias para quem vive futebol."
+    />
+    <title>Na Rede | Futebol em pauta</title>
+    <style></style>
+  </head>
+  <body>
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+    <div class="top">
+      <div class="wrap">
+        <span>Futebol, sem complicação.</span
+        ><span>Informação clara para quem vive o jogo.</span>
+      </div>
+    </div>
+    <header>
+      <div class="wrap nav">
+        <a class="brand" href="#inicio" aria-label="Na Rede, início"
+          ><b aria-hidden="true">NR</b>na rede</a
+        >
+        <nav aria-label="Navegação principal">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#materias">Notícias</a></li>
+            <li><a href="#brasileirao">Brasileirão</a></li>
+            <li><a href="#opiniao">Opinião</a></li>
+          </ul>
+        </nav>
+        <form class="search" role="search" action="#materias" method="get">
+          <label class="skip" for="busca">Buscar notícias</label
+          ><input
+            id="busca"
+            type="search"
+            name="q"
+            placeholder="Buscar notícias"
+          /><button type="submit">Buscar</button>
+        </form>
+      </div>
+    </header>
+    <main class="wrap" id="conteudo">
+      <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+        <div class="hero-copy">
+          <p class="kicker">A rodada começa aqui</p>
+          <h1 id="titulo-principal">O jogo muda. A paixão continua.</h1>
+          <p>
+            Histórias, análises e notícias para acompanhar tudo que acontece
+            dentro e fora de campo.
+          </p>
+          <a class="cta" href="#materias"
+            >Leia as últimas notícias <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <div
+          class="ball"
+          role="img"
+          aria-label="Bola de futebol sobre fundo verde"
+        >
+          ⚽
+        </div>
+      </section>
+      <section id="materias" aria-labelledby="destaques">
+        <div class="heading">
+          <div>
+            <p
+              class="kicker"
+              style="color: var(--green); margin-bottom: 0.2rem"
+            >
+              Do campo para você
+            </p>
+            <h2 id="destaques">Em destaque</h2>
+          </div>
+          <p>Uma seleção da nossa equipe</p>
+        </div>
+        <div class="layout">
+          <div class="cards">
+            <article class="card" id="brasileirao">
+              <div class="art a1" aria-hidden="true">🏟️</div>
+              <div class="body">
+                <span class="tag">Brasileirão</span>
+                <h3>
+                  <a href="#brasileirao"
+                    >A disputa pelo topo promete emoção até o fim</a
+                  >
+                </h3>
+                <p>
+                  Equilíbrio na tabela deixa cada rodada ainda mais decisiva
+                  para os candidatos ao título.
+                </p>
+                <div class="meta">4 min de leitura</div>
+              </div>
+            </article>
+            <article class="card" id="opiniao">
+              <div class="art a2" aria-hidden="true">📋</div>
+              <div class="body">
+                <span class="tag">Análise tática</span>
+                <h3>
+                  <a href="#opiniao"
+                    >Como a pressão alta transforma o ritmo do jogo</a
+                  >
+                </h3>
+                <p>
+                  Entenda a estratégia que encurta o campo e exige decisões
+                  rápidas dos times.
+                </p>
+                <div class="meta">6 min de leitura</div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="art a3" aria-hidden="true">🌱</div>
+              <div class="body">
+                <span class="tag">Futebol de base</span>
+                <h3>
+                  <a href="#materias"
+                    >Jovens talentos que estão pedindo passagem</a
+                  >
+                </h3>
+                <p>
+                  Nomes para acompanhar nesta temporada e nos próximos anos.
+                </p>
+                <div class="meta">3 min de leitura</div>
+              </div>
+            </article>
+            <article class="card">
+              <div class="art a4" aria-hidden="true">🎙️</div>
+              <div class="body">
+                <span class="tag">Cultura</span>
+                <h3>
+                  <a href="#materias"
+                    >A arquibancada também conta a história do jogo</a
+                  >
+                </h3>
+                <p>
+                  Cantos, rituais e memórias que fazem do futebol uma
+                  experiência coletiva.
+                </p>
+                <div class="meta">5 min de leitura</div>
+              </div>
+            </article>
+          </div>
+          <aside aria-label="Informações rápidas">
+            <section class="panel" aria-labelledby="agenda">
+              <h2 id="agenda">Agenda da rodada</h2>
+              <div class="game">
+                <span>Palmeiras × Flamengo</span><time>18h30</time>
+              </div>
+              <div class="game">
+                <span>Grêmio × Bahia</span><time>16h</time>
+              </div>
+              <div class="game">
+                <span>Botafogo × Santos</span><time>20h</time>
+              </div>
+              <div class="meta">Horários de Brasília</div>
+            </section>
+            <section class="panel signup" aria-labelledby="novidades">
+              <h2 id="novidades">Receba o apito inicial</h2>
+              <p>Uma seleção das principais notícias, direto no seu e-mail.</p>
+              <form action="#novidades" method="get">
+                <label for="email">Seu e-mail</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="voce@exemplo.com"
+                  required
+                /><button type="submit">Quero receber</button>
+              </form>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <span>© 2025 Na Rede. Feito para quem vive futebol.</span
+      ><a href="#inicio">Voltar ao topo ↑</a>
+    </footer>
+  </body>
+</html>
