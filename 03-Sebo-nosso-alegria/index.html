@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Configurações do documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO e informações da página -->
+    <meta name="description"
+          content="Sebo Nossa Alegria: descubra livros novos e usados, revistas e ofertas especiais.">
+    <meta name="theme-color" content="#007bff">
+
+    <title>Sebo Nossa Alegria | Livros e Revistas</title>
+
+    <!-- Folha de estilos principal -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         CABEÇALHO
+    =========================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <!-- Logo e nome da loja -->
+            <a href="#inicio" class="logo" aria-label="Sebo Nossa Alegria - Início">
+                <span class="logo-icon" aria-hidden="true">📚</span>
+                <span>Sebo <strong>Nossa Alegria</strong></span>
+            </a>
+
+            <!-- Navegação principal -->
+            <nav class="topnav" aria-label="Menu principal">
+
+                <ul class="menu">
+                    <li><a href="#inicio" class="active">Início</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#catalogo">Livros</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+
+            </nav>
+
+            <!-- Controle do tema -->
+            <button
+                type="button"
+                id="theme-toggle"
+                class="theme-toggle"
+                aria-label="Ativar modo escuro"
+                aria-pressed="false"
+            >
+                <span aria-hidden="true">🌙</span>
+                <span class="theme-label">Modo escuro</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         CONTEÚDO PRINCIPAL
+    =========================================== -->
+
+    <main id="inicio">
+
+        <!-- ======================================
+             APRESENTAÇÃO
+        ======================================= -->
+
+        <section class="welcome-section">
+
+            <div class="container">
+
+                <p class="welcome-label">SEBO NOSSA ALEGRIA</p>
+
+                <h1>Histórias que merecem ser descobertas.</h1>
+
+                <p class="welcome-description">
+                    Encontre novos mundos, relembre grandes histórias
+                    e descubra seu próximo livro favorito.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             CARROSSEL DE DESTAQUES
+        ======================================= -->
+
+        <section class="featured-section" id="destaques">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-label">SELEÇÃO ESPECIAL</span>
+                        <h2>Principais escolhas</h2>
+                        <p>Livros que merecem sua atenção.</p>
+                    </div>
+
+                    <!-- Controles do carrossel -->
+                    <div class="carousel-controls">
+
+                        <button
+                            type="button"
+                            class="carousel-btn"
+                            id="carousel-prev"
+                            aria-label="Ver livros anteriores"
+                        >
+                            &#8592;
+                        </button>
+
+                        <button
+                            type="button"
+                            class="carousel-btn"
+                            id="carousel-next"
+                            aria-label="Ver próximos livros"
+                        >
+                            &#8594;
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- Área rolável do carrossel -->
+                <div
+                    class="promocao"
+                    id="promocao"
+                    tabindex="0"
+                    aria-label="Livros em destaque"
+                    aria-live="polite"
+                >
+
+                    <!--
+                        Os livros em destaque serão adicionados
+                        dinamicamente pelo JavaScript.
+                    -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             CATÁLOGO DE PRODUTOS
+        ======================================= -->
+
+        <section class="catalog-section" id="catalogo">
+
+            <div class="container">
+
+                <div class="section-heading catalog-heading">
+
+                    <div>
+                        <span class="section-label">EXPLORE NOSSO ACERVO</span>
+                        <h2>Todos os livros</h2>
+                        <p>Encontre sua próxima leitura em nosso catálogo.</p>
+                    </div>
+
+                </div>
+
+                <!--
+                    Os produtos serão inseridos dinamicamente
+                    pelo arquivo main.js.
+                -->
+                <div
+                    class="produtos"
+                    id="produtos"
+                    aria-live="polite"
+                >
+
+                    <!-- Produtos do catálogo -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             SOBRE A LOJA
+        ======================================= -->
+
+        <section class="about-section" id="sobre">
+
+            <div class="container about-content">
+
+                <div class="about-icon" aria-hidden="true">
+                    📖
+                </div>
+
+                <div>
+                    <span class="section-label">NOSSA HISTÓRIA</span>
+
+                    <h2>Sobre o Sebo Nossa Alegria</h2>
+
+                    <p>
+                        Acreditamos que os livros carregam histórias
+                        que merecem continuar sendo compartilhadas.
+                        Nosso objetivo é aproximar leitores de novas
+                        experiências por meio de livros novos e usados.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         RODAPÉ
+    =========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <a href="#inicio" class="footer-logo">
+                📚 Sebo Nossa Alegria
+            </a>
+
+            <p>
+                Compartilhando histórias e incentivando a leitura.
+            </p>
+
+            <p class="copyright">
+                &copy; 2026 Sebo Nossa Alegria.
+                Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript principal -->
+    <script src="assets/main.js" defer></script>
+
+</body>
+</html>

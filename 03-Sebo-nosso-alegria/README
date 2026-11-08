@@ -1,0 +1,129 @@
+# Sebo Nossa Alegria
+
+## Sobre o projeto
+
+O **Sebo Nossa Alegria** é um projeto desenvolvido como parte da disciplina de **Interação Humano-Computador (IHC)**. A proposta consiste na criação de uma interface web para uma loja de livros e revistas, permitindo que os usuários visualizem produtos, consultem preços e identifiquem ofertas disponíveis.
+
+O projeto busca aplicar conceitos fundamentais de IHC, priorizando uma interface intuitiva, organizada, acessível e responsiva. Seu desenvolvimento considera a importância da experiência do usuário durante a navegação e da facilidade de interação com os elementos do sistema.
+
+## Objetivos de IHC no projeto
+
+O principal objetivo é proporcionar uma interação simples e eficiente entre o usuário e a aplicação, reduzindo dificuldades de navegação e facilitando a localização das informações.
+
+Para isso, foram considerados princípios e diretrizes de usabilidade, como:
+
+- Facilidade de aprendizagem;
+- Consistência visual e funcional;
+- Visibilidade do estado do sistema;
+- Feedback durante as interações;
+- Controle e liberdade do usuário;
+- Reconhecimento em vez de memorização;
+- Acessibilidade;
+- Prevenção de erros;
+- Responsividade e adaptação a diferentes dispositivos.
+
+## Aplicação dos princípios de IHC
+
+### 1. Consistência e padronização
+
+A interface utiliza padrões visuais e estruturais consistentes em suas diferentes seções. Cores, tipografia, espaçamentos, botões e cartões de produtos seguem uma identidade visual comum.
+
+Essa padronização facilita o reconhecimento dos elementos e evita que o usuário precise aprender diferentes formas de interação ao navegar pelo site.
+
+### 2. Visibilidade do estado do sistema
+
+O sistema apresenta informações de maneira clara, permitindo que o usuário compreenda o conteúdo disponível em cada seção.
+
+Os preços dos produtos, os valores promocionais e os elementos de navegação são apresentados visualmente, facilitando a identificação das informações relevantes.
+
+O controle de tema também fornece indicação visual do modo de exibição selecionado.
+
+### 3. Feedback ao usuário
+
+As interações possuem respostas visuais para indicar suas funcionalidades e estados.
+
+Entre os exemplos estão:
+
+- Alteração visual dos botões durante a interação;
+- Indicação do tema atualmente selecionado;
+- Atualização da aparência da interface ao alternar entre os modos claro e escuro;
+- Movimentação do carrossel ao utilizar os controles de navegação.
+
+Esses recursos ajudam o usuário a compreender que suas ações foram reconhecidas pelo sistema.
+
+### 4. Controle e liberdade do usuário
+
+O projeto oferece recursos que permitem ao usuário controlar parte de sua experiência de navegação.
+
+Um exemplo é a possibilidade de alternar entre o tema claro e o tema escuro, escolhendo a apresentação visual de sua preferência.
+
+O carrossel de ofertas também permite navegar entre os produtos utilizando controles específicos, sem depender exclusivamente da movimentação automática.
+
+### 5. Reconhecimento em vez de memorização
+
+As informações são organizadas visualmente para que o usuário consiga identificar os produtos sem precisar memorizar nomes, preços ou posições.
+
+Cada livro ou revista é apresentado em um cartão contendo imagem, descrição e preço. Nas ofertas, o preço original e o promocional são diferenciados visualmente.
+
+Essa organização facilita a comparação e reduz o esforço cognitivo durante a navegação.
+
+### 6. Prevenção de erros
+
+A interface procura reduzir interações desnecessárias ou confusas por meio de elementos visuais claros e controles com funções específicas.
+
+No carrossel, por exemplo, os botões de navegação são desabilitados quando não existe conteúdo disponível para continuar naquela direção.
+
+Além disso, a estrutura visual busca manter os elementos organizados e evitar ambiguidades na identificação de produtos e preços.
+
+### 7. Estética e design minimalista
+
+O projeto utiliza uma composição visual organizada, evitando o excesso de informações e elementos decorativos.
+
+Os produtos são apresentados em cartões individuais, enquanto as ofertas recebem destaque por meio de elementos visuais específicos.
+
+A utilização de uma paleta de cores consistente contribui para a hierarquia visual, direcionando a atenção do usuário para as informações mais importantes.
+
+### 8. Acessibilidade
+
+Foram consideradas práticas que facilitam o acesso e a compreensão da interface, como:
+
+- Uso de textos alternativos nas imagens dos produtos;
+- Identificação dos controles por meio de atributos acessíveis;
+- Estruturação do conteúdo com elementos semânticos do HTML;
+- Contraste entre textos e fundos;
+- Possibilidade de navegação por diferentes tamanhos de tela.
+
+Essas práticas contribuem para tornar a aplicação mais compreensível e utilizável por diferentes públicos.
+
+### 9. Responsividade
+
+A interface foi planejada para se adaptar a diferentes resoluções e dispositivos, incluindo computadores, tablets e smartphones.
+
+A organização dos cartões, menus e seções considera a disponibilidade de espaço na tela, buscando preservar a legibilidade e a facilidade de navegação independentemente do dispositivo utilizado.
+
+## Funcionalidades implementadas
+
+- Exibição de livros e revistas disponíveis no catálogo;
+- Seção de ofertas com destaque para preços promocionais;
+- Carrossel horizontal para navegação entre ofertas;
+- Alternância entre tema claro e escuro;
+- Armazenamento da preferência de tema no navegador;
+- Organização dos produtos em cartões individuais;
+- Layout responsivo;
+- Navegação entre as principais seções do site.
+
+## Tecnologias utilizadas
+
+- **HTML5:** estruturação semântica do conteúdo;
+- **CSS3:** estilização, identidade visual, responsividade e temas;
+- **JavaScript:** manipulação dinâmica dos produtos, funcionamento do carrossel e alternância de temas.
+
+## Considerações finais
+
+O desenvolvimento do **Sebo Nossa Alegria** permitiu aplicar, na prática, conceitos fundamentais da disciplina de Interação Humano-Computador.
+
+As decisões de projeto foram orientadas pela preocupação com a usabilidade, a organização das informações, a consistência visual e a facilidade de interação.
+
+Mais do que apresentar um catálogo de produtos, a proposta busca demonstrar como os princípios de IHC podem contribuir para o desenvolvimento de interfaces mais intuitivas, acessíveis e eficientes.
+
+O projeto representa uma aplicação prática dos conhecimentos adquiridos durante a disciplina, evidenciando a importância de considerar as necessidades dos usuários em todas as etapas do desenvolvimento de uma interface.

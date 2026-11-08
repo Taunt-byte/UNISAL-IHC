@@ -51,6 +51,11 @@ Projeto de interface inspirado nos tradicionais blocos de notas adesivas, com a 
 
 A aplicação explora conceitos de organização visual, simplicidade e interação direta, buscando proporcionar uma experiência intuitiva para o usuário.
 
+**Tecnologias utilizadas:**
+- HTML5
+- CSS3
+- JavaScript
+
 ### Funcionalidades e conceitos de IHC
 
 - **Organização visual:** Distribuição das anotações em uma interface inspirada em post-its físicos.
@@ -70,6 +75,11 @@ A aplicação explora conceitos de organização visual, simplicidade e interaç
 Projeto de desenvolvimento de uma interface de autenticação, com foco na interação entre usuário e sistema durante o processo de acesso.
 
 A proposta explora princípios de simplicidade, clareza e organização dos elementos de interface, tornando o processo de identificação mais compreensível e acessível.
+
+**Tecnologias utilizadas:**
+- HTML5
+- CSS3
+
 
 ### Funcionalidades e conceitos de IHC
 
@@ -91,6 +101,10 @@ A proposta explora princípios de simplicidade, clareza e organização dos elem
 Projeto de interface para um blog com temática relacionada ao futebol, explorando a apresentação e organização de conteúdos informativos em uma plataforma digital.
 
 A proposta considera a experiência de navegação do usuário, a organização das informações e a facilidade de acesso às publicações.
+
+**Tecnologias utilizadas:**
+- HTML5
+- CSS3
 
 ### Funcionalidades e conceitos de IHC
 
